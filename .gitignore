@@ -1,13 +1,4 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
-
-pkg/
-src/
+sudo iftop 
+sudo wlan0 down
+sudo macchanger -m 12:31:41:63:14 wlan0
+sudo wlan0 up 
